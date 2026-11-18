@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "linkguard-url-detector-rebuilt"
+version = "0.2.0"
+description = "Reconstructed LinkGuard URL features, training and API"
+readme = "README.md"
+requires-python = ">=3.11"
+dynamic = ["dependencies"]
+[project.scripts]
+linkguard-detect = "detector:main"
+linkguard-train = "train:main"
+[tool.setuptools]
+py-modules = ["server", "detector", "train"]
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+[tool.setuptools.packages.find]
+include = ["linkguard*"]
+[tool.setuptools.package-data]
+linkguard = ["resources/*.txt", "resources/*.json"]
