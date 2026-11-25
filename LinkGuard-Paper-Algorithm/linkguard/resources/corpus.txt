@@ -1,0 +1,12 @@
+This is a small curated local corpus for a reproducible experimental character pair model.
+The user can inspect a website address before opening a link in a browser.
+An account may receive a security notification about a password update.
+The delivery service provides parcel tracking information and customer support.
+The public library contains documents, guides and reference information.
+The university publishes news, schedules and contact details on its website.
+Check the sender and the domain before entering personal information.
+Use the official application to review banking payments and account activity.
+An online store sends an order confirmation and a shipping receipt.
+The team manages a software project with source code and version history.
+Words in this corpus do not define normal or phishing labels.
+This corpus is not the training material used by the original research paper.

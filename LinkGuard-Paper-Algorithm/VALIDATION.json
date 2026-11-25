@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-25",
+  "python": "3.12.14",
+  "platform": "Linux",
+  "unit_tests": "59개 통과, 실패 0 (기본·DB·API·실제 ONNX 포함)",
+  "ml_integration": "합성 DB 데이터로 만든 LogisticRegression 포장·등록·활성화·HTTP 200 확인",
+  "onnx_integration": "실제 onnxruntime에서 고정 softmax/sigmoid 그래프 실행·DB 교체·부적절한 레이블 출력 거부 확인",
+  "http": "모델 없음 503, 잘못된 입력 422, ML/ONNX 활성화 후 200 확인",
+  "real_world_accuracy_measured": false,
+  "windows_android_runtime_verified": false,
+  "production_model_shipped": false,
+  "versions": {
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "fastapi": "0.141.1",
+    "tldextract": "5.3.0",
+    "onnx": "1.23.2",
+    "onnxruntime": "1.32.0"
+  }
+}
